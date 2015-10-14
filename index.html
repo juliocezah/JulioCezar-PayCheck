@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+<title>First Exam</title>
+
+<link rel="stylesheet" href="asset/css/style.css" />
+
+</head>
+<body>
+
+<fieldset id="Total">
+    <h1>Salary Paycheck Calculator</h1>
+	<form class="form">
+    	        <label>
+			            Salary
+			            <input id="salary" type="text" placeholder="4271.00" required="required" />
+			            <input type="submit" name="calc"/>
+		        </label>
+	</form>
+		
+		<div class="inss">
+		    <span class="label">INSS</span>
+		    <span class="resultinss">0.00</span>
+		</div> 
+		
+		<div class="irpf">
+		    <span class="label">IRPF</span>
+		    <span class="irpfcalc">0.00</span>
+		</div>
+		
+		<div class="salaryliquid">
+		    <span class="label">Liquid Salary</span>
+		    <span class="salaryliq">0.00</span>
+	    </div>
+	    
+</fieldset>	    
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="asset/js/SALARYService.js"></script>
+<script src="asset/js/SALARYController.js"></script>
+
+</body>
+</html>

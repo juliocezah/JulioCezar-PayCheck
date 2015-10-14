@@ -1,0 +1,15 @@
+fieldset{
+	margin: 50px auto;
+	width: 500px;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.form{
+	border-top: 3px solid blue;
+	margin-top: -25px;
+}
+
+html{
+	font-family: Verdana;
+}
